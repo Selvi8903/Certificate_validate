@@ -1,0 +1,22 @@
+/* Styles for the welcome page container */
+.welcome-page {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100vh; /* Set the height of the container to the full viewport height */
+}
+
+/* Styles for the welcome message */
+.welcome-message {
+    text-align: center; /* Center-align the text */
+}
+
+.welcome-message h1 {
+    font-size: 36px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Add spacing below the heading */
+}
+
+.welcome-message p {
+    font-size: 18px; /* Adjust font size as needed */
+    color: #555; /* Set text color */
+}

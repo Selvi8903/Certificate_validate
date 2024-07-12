@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --big-color: #1f1f21;
+    --text-color: #fff;
+    --main-color: white;
+    --big-font: 7rem;
+    --p-font: 1.1rem;
+}
+
+.upload-container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    padding: 20px; /* Padding around the container */
+    /*background-image: url("D:/Navigation/dash/src/img/profile2.jpeg");  Background image */
+    background-position: center;
+    background-size: cover;
+}
+
+.upload-main5 {
+    width: 100%;
+    max-width: 400px; /* Reduced max-width for a more compact form */
+    padding: 20px; /* Padding inside the form */
+    background: var(--big-color);
+    box-shadow: 0px 10px 20px #00000070; /* Subtle shadow effect */
+    border: 1px solid #908c8c;
+    border-radius: 20px; /* Border radius for rounded corners */
+    backdrop-filter: blur(7px);
+    position: absolute;
+    margin-right: 25px;
+}
+
+.upload-main5 h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.form-group5 {
+    margin-bottom: 15px; /* Reduced margin-bottom */
+}
+
+.form-group5 label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--text-color);
+}
+
+.form-group5 input[type="text"],
+.form-group5 input[type="email"],
+.form-group5 input[type="password"] {
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    background: var(--big-color);
+    color: var(--text-color);
+    border: 1px solid var(--main-color);
+    border-radius: 10px; /* Reduced border-radius */
+    outline: none;
+}
+
+button[type="button"] {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(130.08deg, #686867 0%, #141414 100%);
+    box-shadow: 0px 10px 20px #00000070; /* Reduced shadow for a more subtle effect */
+    border: 1px solid #3b3b3b;
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px; /* Reduced border-radius */
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+}
+
+button[type="button"]:hover {
+    transform: translateY(-5px);
+    background: transparent;
+    color: var(--main-color);
+}
+
+.forgot-password {
+    color: white;
+}
+
+@media(max-width: 768px) {
+    .upload-container5 {
+        padding: 10px;
+    }
+
+    .upload-main5 {
+        padding: 10px;
+    }
+
+    button[type="button"] {
+        padding: 8px;
+    }
+}
+.verification-result {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .verification-result.valid {
+    background-color: green;
+    color: white;
+  }
+  
+  .verification-result.fake {
+    background-color: red;
+    color: white;
+  }
+  

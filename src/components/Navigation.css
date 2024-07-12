@@ -1,0 +1,185 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+body {
+  background:#1f1f21;
+}
+
+.container {
+  display: flex;
+}
+
+nav {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  background: #fff;
+  width: 280px;
+  overflow: hidden;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.logo {
+  text-align: center;
+  display: flex;
+  margin: 10px 0 0 10px;
+}
+
+.logo img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.logo span {
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+a {
+  position: relative;
+  color: rgb(85, 83, 83);
+  font-size: 14px;
+  display: table;
+  width: 280px;
+  padding: 10px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  gap: 10px; /* Space between menu items */
+}
+
+.menu li {
+  width: 100%;
+  padding:20px;
+}
+
+.menu li a {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(130.08deg, #686867 0%, #8a8787 100%);
+ 
+  border: 1px solid #3b3b3b;
+  color: var(--text-color);
+  font-size: 10px;
+ 
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.1s ease-in-out;
+}
+
+.menu li a:hover {
+  transform: translateY(-1px);
+  background: transparent;
+  color: black;
+}
+
+
+.nav-item {
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+}
+
+
+
+.logout-container {
+  margin-top: auto;
+  padding: 20px;
+}
+
+.logout-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+/* User Profile Section */
+.user-profile {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: #f5f5f5;
+  margin-bottom: 10px;
+}
+
+
+
+
+/* Specific style for the user-pin icon */
+.bx.bx-user-pin {
+  
+  font-size: 20px;
+}
+
+/* Main Section */
+.main {
+  position: relative;
+  padding: 20px;
+  width: 100%;
+}
+
+.logout-button {
+  padding: 10px 20px;
+  background: linear-gradient(130.08deg, #686867 0%, #141414 100%);
+  box-shadow: 0px 10px 20px #00000070;
+  border: 1px solid #3b3b3b;
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.6s ease-in-out;
+}
+
+.logout-button:hover {
+  transform: translateY(-5px);
+  background: transparent;
+  color: black;
+}
+
+
+
+
+.bx{
+  font-size: 20px;
+}
+
+
+
+
+

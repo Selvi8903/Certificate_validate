@@ -1,0 +1,34 @@
+.con6 {
+    padding: 20px;
+    background-color:black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color:white;
+    border: 1px solid white;
+  }
+  
+  .con6 h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .con6 span {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .con6 span h3 {
+    font-size: 20px;
+    color:white;
+    margin-bottom: 5px;
+  }
+  
+  .con6 span ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .con6 span p {
+    margin-bottom: 10px;
+  }
+  
